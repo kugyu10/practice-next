@@ -1,2 +1,7 @@
-semi: false # 行末のセミコロンは省略する
-singleQuote: true # 引用符にはシングルクォートを使う
+{
+"printWidth": 100,
+"trailingComma": "all",
+"tabWidth": 2,
+"semi": true,
+"singleQuote": true
+}
