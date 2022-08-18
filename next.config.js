@@ -3,7 +3,7 @@ const nextConfig = {
   reactStrictMode: true,
   swcMinify: true,
   images: {
-    domains: ['kugyu10-post.s3.ap-northeast-1.amazonaws.com'],
+    domains: [process.env.S3DOMAIN,],
   }
 }
 
