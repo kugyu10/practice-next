@@ -36,7 +36,7 @@ export const getStaticProps: GetStaticProps<ISRProps> = async(context) => {
     props: {
       message,
     },
-    revalidate: 60 //ページの有効期限（秒）
+    revalidate: 60, //ページの有効期限（秒）
   }
 }
 
